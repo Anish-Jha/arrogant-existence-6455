@@ -1,2 +1,2 @@
-Name:Anish Jha
+Name:Anish 
 Project: Sugarcosmetics Clone(Individual)
