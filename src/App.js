@@ -1,10 +1,10 @@
 import './App.css';
-import DarkModeSwitch from './components/Navbar';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-     <DarkModeSwitch/>
+    <Navbar/>
     </div>
   );
 }
