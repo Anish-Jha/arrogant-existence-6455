@@ -7,7 +7,7 @@ import {AiOutlineHeart} from "react-icons/ai"
 import {TbDiscount2} from "react-icons/tb"
 import SubNavbar from "./SubNavbar";
 
-export default function navbar() {
+export default function Navbar() {
   return (
     <div>
         <div
@@ -27,7 +27,7 @@ export default function navbar() {
         <input
           style={{
             height: "42px",
-            width: "540px",
+            width: "560px",
             backgroundColor:"#212121",
             marginLeft: "40px",
             marginTop: "20px",
@@ -46,7 +46,7 @@ export default function navbar() {
             border: "none",
             backgroundColor: "white",
             height: "42px",
-            width: "100px",
+            width: "120px",
             cursor:"pointer",
             marginTop: "20px",
             borderTopRightRadius: "10px",
@@ -59,7 +59,7 @@ export default function navbar() {
         <FaUserCircle
           style={{ marginTop: "30px", marginLeft: "180px", fontSize: "20px" }}
         />
-        {/* <Link to="/signin"> */}
+        <Link to="/SignIn">
           <p
             style={{
               textDecoration: "none",
@@ -71,7 +71,7 @@ export default function navbar() {
           >
             Login/Register
           </p>
-        {/* </Link> */}
+        </Link>
         <AiOutlineHeart
           style={{
             cursor:"pointer",
@@ -99,11 +99,13 @@ export default function navbar() {
             marginLeft: "10px",
             marginRight: "50px",
             fontSize: "25px",
-            // color:"white",
           }}
         />
       </div>
       <SubNavbar />
+      <div style={{height:"500px"}}>
+
+      </div>
     </div>
   )
 }

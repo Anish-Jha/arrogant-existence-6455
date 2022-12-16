@@ -1,11 +1,12 @@
 function SubNavbar(){
     return(
   <div>
-    <div style={{display:"flex",
+    <div style={{
+    display:"flex",
     height:"50px",
     width:"100%",
-    paddingTop:"10px",
-    backgroundColor:"black",
+    paddingTop:"15px",
+    backgroundColor:"#141414",
     }}>
       <p style={{paddingLeft:"50px",color:"white",fontWeight:"500", fontSize:"14px", cursor:"pointer"}}>
         MAKEUP
