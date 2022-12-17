@@ -59,19 +59,20 @@ export default function Navbar() {
         <FaUserCircle
           style={{ marginTop: "30px", marginLeft: "180px", fontSize: "20px" }}
         />
-        <Link to="/SignIn">
-          <p
+        {/* <Link to="/SignIn"> */}
+          <a
             style={{
-              textDecoration: "none",
+              textDecoration:"none",
               marginLeft: "5px",
               marginTop: "28px",
               color: "white",
               cursor:"pointer",
             }}
+            href="./SignIn"
           >
             Login/Register
-          </p>
-        </Link>
+          </a>
+        {/* </Link> */}
         <AiOutlineHeart
           style={{
             cursor:"pointer",
@@ -103,9 +104,6 @@ export default function Navbar() {
         />
       </div>
       <SubNavbar />
-      <div style={{height:"500px"}}>
-
-      </div>
     </div>
   )
 }
