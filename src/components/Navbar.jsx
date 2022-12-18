@@ -19,11 +19,13 @@ export default function Navbar() {
           color:"white",
         }}
       >
+        <Link to="/">
         <img
           style={{ height: "60px", paddingLeft: "30px", paddingTop: "15px", cursor:"pointer", }}
           src={logo}
           alt="Sugar"
         />
+        </Link>
         <input
           style={{
             height: "42px",
